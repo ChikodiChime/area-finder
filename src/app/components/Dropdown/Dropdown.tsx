@@ -58,7 +58,6 @@ const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({ selectedAmeni
       blurInputOnSelect={false}
       closeMenuOnSelect={false}
       hideSelectedOptions={false}
-      defaultMenuIsOpen={true}
       
     />
   );

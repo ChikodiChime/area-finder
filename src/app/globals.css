@@ -31,9 +31,7 @@ h4{
   font-size: 24px;
   font-weight: 500;
 }
-p{
-  /* font-size: 18px; */
-}
+
 ::placeholder{
   color: #484851;
 }
@@ -96,7 +94,7 @@ input:active, textarea:focus{
 
 /* Style for the first grid item (if it spans two rows) */
 .grid-item-1 {
-  grid-row: span 1; /* Span two rows */
+  grid-row: span 1; 
 }
 
 /* Style for images */
@@ -108,6 +106,8 @@ input:active, textarea:focus{
 .comment-input > input::placeholder{
   color: #1E1E1E;
 }
+
+/* style for Dropdown */
 .css-1n6sfyn-MenuList{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -151,16 +151,17 @@ input:active, textarea:focus{
   .grid-container-wrapper::-webkit-scrollbar {
       display: none;
   }
+  .css-1n6sfyn-MenuList{
+   
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 640px) {
   h1{
     font-size: 32px;
   }
-  .css-1n6sfyn-MenuList{
-   
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
   
 }
 
